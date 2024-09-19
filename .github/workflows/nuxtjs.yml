@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "20"
       # Pick your own package manager and build script
-      - run: pnpm i
+      - run: npm install
       - run: pnpm generate --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
