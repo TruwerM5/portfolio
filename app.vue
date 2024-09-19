@@ -11,33 +11,33 @@ const projects = [
   {
     name: 'Historic Horizon',
     description: 'Full-stack blog about history built with Nuxt, Nest, PostgreSQL and Nginx.',
-    image: '/images/projects/4.jpg',
+    image: './images/projects/4.jpg',
     link: 'https://historic-horizon.ru'
   },
   {
     name: 'Adidas Shop',
     description: 'An e-commerce platform built with Vue.js and Nuxt.js.',
-    image: '/images/projects/1.jpg',
+    image: './images/projects/1.jpg',
     link: 'https://adidas-theta.vercel.app/'
   },{
     name: 'Snake',
     description: 'Classic Snake game built with Vue.js and TypeScript.',
-    image: '/images/projects/2.jpg',
+    image: './images/projects/2.jpg',
     link: 'https://truwerm5.github.io/snake/'
   },{
     name: 'Tic Tac Toe',
     description: 'This Tic Tac Toe game showcases my skills in modern web development, built using Vue.js.',
-    image: '/images/projects/3.jpg',
+    image: './images/projects/3.jpg',
     link: 'https://truwerm5.github.io/tictactoe/'
   },{
     name: 'Quiz App',
     description: 'Quiz to test your knowledge of English',
-    image: '/images/projects/5.jpg',
+    image: './images/projects/5.jpg',
     link: 'https://truwerm5.github.io/QuizApp/'
   },{
     name: 'G-Shock Watch Store',
     description: 'E-Commerce Casio G-Shock Watch Store',
-    image: '/images/projects/6.jpg',
+    image: './images/projects/6.jpg',
     link: 'https://truwerm5.github.io/g-shock/#/'
   }
 ];
@@ -209,7 +209,7 @@ const contacts = [
             class="flex-1 p-4 shadow-2xl text-center transition-all duration-500 hover:text-primary
             hover:-translate-y-4">
               <img 
-                :src="`/images/contact/${contact.img}`" 
+                :src="`./images/contact/${contact.img}`" 
                 :alt="contact.name" 
                 class="w-10 md:w-16 mx-auto"
               />

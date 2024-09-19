@@ -78,14 +78,16 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DRQLApDe.js",
+    "file": "CX9RIlZm.js",
     "name": "error-404",
     "src": "node_modules/.pnpm/nuxt@3.13.1_@parcel+watcher@2.4.1_@types+node@22.5.4_ioredis@5.4.1_magicast@0.3.5_rollup@4.21_gyumx2uughrkxfi3zhio7jcoaq/node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/.pnpm/nuxt@3.13.1_@parcel+watcher@2.4.1_@types+node@22.5.4_ioredis@5.4.1_magicast@0.3.5_rollup@4.21_gyumx2uughrkxfi3zhio7jcoaq/node_modules/nuxt/dist/app/entry.js"
     ],
-    "css": []
+    "css": [
+      "error-404.DbOmCOXT.css"
+    ]
   },
   "error-404.DbOmCOXT.css": {
     "file": "error-404.DbOmCOXT.css",
@@ -98,14 +100,16 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CFu_2cNw.js",
+    "file": "e9ja4ZCP.js",
     "name": "error-500",
     "src": "node_modules/.pnpm/nuxt@3.13.1_@parcel+watcher@2.4.1_@types+node@22.5.4_ioredis@5.4.1_magicast@0.3.5_rollup@4.21_gyumx2uughrkxfi3zhio7jcoaq/node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/.pnpm/nuxt@3.13.1_@parcel+watcher@2.4.1_@types+node@22.5.4_ioredis@5.4.1_magicast@0.3.5_rollup@4.21_gyumx2uughrkxfi3zhio7jcoaq/node_modules/nuxt/dist/app/entry.js"
     ],
-    "css": []
+    "css": [
+      "error-500.hlZIR3Lj.css"
+    ]
   },
   "error-500.hlZIR3Lj.css": {
     "file": "error-500.hlZIR3Lj.css",
@@ -118,7 +122,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CHawRPda.js",
+    "file": "V9NDDsq2.js",
     "name": "entry",
     "src": "node_modules/.pnpm/nuxt@3.13.1_@parcel+watcher@2.4.1_@types+node@22.5.4_ioredis@5.4.1_magicast@0.3.5_rollup@4.21_gyumx2uughrkxfi3zhio7jcoaq/node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -127,16 +131,25 @@
       "node_modules/.pnpm/nuxt@3.13.1_@parcel+watcher@2.4.1_@types+node@22.5.4_ioredis@5.4.1_magicast@0.3.5_rollup@4.21_gyumx2uughrkxfi3zhio7jcoaq/node_modules/nuxt/dist/app/components/error-500.vue"
     ],
     "css": [
-      "entry.B59FIHWl.css"
+      "entry.BOUN-nAw.css"
     ],
     "assets": [
       "vue-logo.CyU2rpZV.png",
-      "avatar.B6tBuirj.png"
-    ],
-    "_globalCSS": true
+      "avatar.B6tBuirj.png",
+      "Lato-100-1.DCnLPYms.woff2",
+      "Lato-100-2.Dw0I1B7H.woff2",
+      "Lato-300-3.BWm3ECDp.woff2",
+      "Lato-300-4.BP2wSCML.woff2",
+      "Lato-400-5.C8eBZ-j2.woff2",
+      "Lato-400-6.BEhtfm5r.woff2",
+      "Lato-700-7.C5WWfNwx.woff2",
+      "Lato-700-8.BUGMgin4.woff2",
+      "Lato-900-9.Bl5tLxDl.woff2",
+      "Lato-900-10.C3uaq3BA.woff2"
+    ]
   },
-  "entry.B59FIHWl.css": {
-    "file": "entry.B59FIHWl.css",
+  "entry.BOUN-nAw.css": {
+    "file": "entry.BOUN-nAw.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -152,5 +165,55 @@
     "resourceType": "image",
     "prefetch": true,
     "mimeType": "image/png"
+  },
+  "Lato-100-1.DCnLPYms.woff2": {
+    "file": "Lato-100-1.DCnLPYms.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-100-2.Dw0I1B7H.woff2": {
+    "file": "Lato-100-2.Dw0I1B7H.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-300-3.BWm3ECDp.woff2": {
+    "file": "Lato-300-3.BWm3ECDp.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-300-4.BP2wSCML.woff2": {
+    "file": "Lato-300-4.BP2wSCML.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-400-5.C8eBZ-j2.woff2": {
+    "file": "Lato-400-5.C8eBZ-j2.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-400-6.BEhtfm5r.woff2": {
+    "file": "Lato-400-6.BEhtfm5r.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-700-7.C5WWfNwx.woff2": {
+    "file": "Lato-700-7.C5WWfNwx.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-700-8.BUGMgin4.woff2": {
+    "file": "Lato-700-8.BUGMgin4.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-900-9.Bl5tLxDl.woff2": {
+    "file": "Lato-900-9.Bl5tLxDl.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
+  },
+  "Lato-900-10.C3uaq3BA.woff2": {
+    "file": "Lato-900-10.C3uaq3BA.woff2",
+    "resourceType": "font",
+    "mimeType": "font/woff2"
   }
 }

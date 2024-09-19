@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
   compatibilityDate: '2024-04-03',
   css: ['~/assets/css/style.css'],
   devtools: { enabled: true },
@@ -21,8 +22,5 @@ export default defineNuxtConfig({
       }],
       title: "Ilsur Khalimov"
     }
-  },
-  vite: {
-    base: '/portfolio/'
-  },
+  }
 })
