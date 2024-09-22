@@ -20,11 +20,6 @@ const projects = [
     image: './images/projects/1.jpg',
     link: 'https://adidas-theta.vercel.app/'
   },{
-    name: 'Snake',
-    description: 'Classic Snake game built with Vue.js and TypeScript.',
-    image: './images/projects/2.jpg',
-    link: 'https://truwerm5.github.io/snake/'
-  },{
     name: 'Tic Tac Toe',
     description: 'This Tic Tac Toe game showcases my skills in modern web development, built using Vue.js.',
     image: './images/projects/3.jpg',

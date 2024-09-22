@@ -1,28 +1,15 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/vue-bundle-renderer@2.1.0/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { eventHandler, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getQuery, createError, appendResponseHeader, getResponseStatusText } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/h3@1.12.0/node_modules/h3/dist/index.mjs';
-import { stringify, uneval } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/devalue@5.0.0/node_modules/devalue/index.js';
-import { joinRelativeURL, joinURL, withoutTrailingSlash } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/ufo@1.5.4/node_modules/ufo/dist/index.mjs';
-import { propsToString, renderSSRHead } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/@unhead+ssr@1.10.4/node_modules/@unhead/ssr/dist/index.mjs';
-import { u as useRuntimeConfig, a as useNitroApp, b as useStorage, g as getRouteRules } from '../runtime.mjs';
-import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/unhead@1.10.4/node_modules/unhead/dist/index.mjs';
-import { version, unref } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/vue@3.5.3/node_modules/vue/index.mjs';
-import { defineHeadPlugin } from 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/@unhead+shared@1.10.4/node_modules/@unhead/shared/dist/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/node.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/unenv@1.10.0/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/ohash@1.1.3/node_modules/ohash/dist/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/unstorage@1.12.0_ioredis@5.4.1/node_modules/unstorage/dist/index.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/unstorage@1.12.0_ioredis@5.4.1/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/unstorage@1.12.0_ioredis@5.4.1/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/unstorage@1.12.0_ioredis@5.4.1/node_modules/unstorage/drivers/lru-cache.mjs';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'vue-bundle-renderer/runtime';
+import { u as useRuntimeConfig, e as eventHandler, s as setResponseHeader, a as send, g as getResponseStatus, b as setResponseStatus, c as useNitroApp, d as setResponseHeaders, j as joinRelativeURL, f as getQuery, h as createError, i as getRouteRules, k as getResponseStatusText } from '../runtime.mjs';
+import { stringify, uneval } from 'devalue';
+import { propsToString, renderSSRHead } from '@unhead/ssr';
+import { createServerHead as createServerHead$1, CapoPlugin } from 'unhead';
+import { version, unref } from 'vue';
+import { defineHeadPlugin } from '@unhead/shared';
+import 'node:http';
+import 'node:https';
 import 'node:fs';
+import 'node:path';
 import 'node:url';
-import 'file:///home/kali/Documents/projects/Nuxt/my-portfolio/node_modules/.pnpm/pathe@1.1.2/node_modules/pathe/dist/index.mjs';
 
 function defineRenderHandler(handler) {
   const runtimeConfig = useRuntimeConfig();
@@ -175,9 +162,6 @@ const getSPARenderer = lazyCachedFunction(async () => {
     renderToString
   };
 });
-const payloadCache = useStorage("internal:nuxt:prerender:payload") ;
-useStorage("internal:nuxt:prerender:island") ;
-useStorage("internal:nuxt:prerender:island-props") ;
 const HAS_APP_TELEPORTS = !!(appTeleportAttrs.id);
 const APP_TELEPORT_OPEN_TAG = HAS_APP_TELEPORTS ? `<${appTeleportTag}${propsToString(appTeleportAttrs)}>` : "";
 const APP_TELEPORT_CLOSE_TAG = HAS_APP_TELEPORTS ? `</${appTeleportTag}>` : "";
@@ -204,9 +188,6 @@ const renderer = defineRenderHandler(async (event) => {
     url = url.substring(0, url.lastIndexOf("/")) || "/";
     event._path = url;
     event.node.req.url = url;
-    if (await payloadCache.hasItem(url)) {
-      return payloadCache.getItem(url);
-    }
   }
   const routeOptions = getRouteRules(event);
   const head = createServerHead({
@@ -230,11 +211,6 @@ const renderer = defineRenderHandler(async (event) => {
     modules: /* @__PURE__ */ new Set(),
     islandContext
   };
-  const _PAYLOAD_EXTRACTION = !ssrContext.noSSR && !isRenderingIsland;
-  const payloadURL = _PAYLOAD_EXTRACTION ? joinURL(ssrContext.runtimeConfig.app.cdnURL || ssrContext.runtimeConfig.app.baseURL, url, "_payload.json" ) + "?" + ssrContext.runtimeConfig.app.buildId : void 0;
-  {
-    ssrContext.payload.prerenderedAt = Date.now();
-  }
   const renderer = await getSPARenderer() ;
   const _rendered = await renderer.renderToString(ssrContext).catch(async (error) => {
     if (ssrContext._renderResponse && error.message === "skipping render") {
@@ -253,25 +229,11 @@ const renderer = defineRenderHandler(async (event) => {
   }
   if (isRenderingPayload) {
     const response2 = renderPayloadResponse(ssrContext);
-    {
-      await payloadCache.setItem(url, response2);
-    }
     return response2;
-  }
-  if (_PAYLOAD_EXTRACTION) {
-    appendResponseHeader(event, "x-nitro-prerender", joinURL(url, "_payload.json" ));
-    await payloadCache.setItem(withoutTrailingSlash(url), renderPayloadResponse(ssrContext));
   }
   const inlinedStyles = [];
   const NO_SCRIPTS = routeOptions.experimentalNoScripts;
   const { styles, scripts } = getRequestDependencies(ssrContext, renderer.rendererContext);
-  if (_PAYLOAD_EXTRACTION && !NO_SCRIPTS && !isRenderingIsland) {
-    head.push({
-      link: [
-        { rel: "preload", as: "fetch", crossorigin: "anonymous", href: payloadURL } 
-      ]
-    }, headEntryOptions);
-  }
   if (inlinedStyles.length) {
     head.push({ style: inlinedStyles });
   }
@@ -295,7 +257,7 @@ const renderer = defineRenderHandler(async (event) => {
       link: getPrefetchLinks(ssrContext, renderer.rendererContext)
     }, headEntryOptions);
     head.push({
-      script: _PAYLOAD_EXTRACTION ? renderPayloadJsonScript({ ssrContext, data: splitPayload(ssrContext).initial, src: payloadURL })  : renderPayloadJsonScript({ ssrContext, data: ssrContext.payload }) 
+      script: renderPayloadJsonScript({ ssrContext, data: ssrContext.payload }) 
     }, {
       ...headEntryOptions,
       // this should come before another end of body scripts
@@ -311,7 +273,7 @@ const renderer = defineRenderHandler(async (event) => {
         defer: resource.module ? null : true,
         // if we are rendering script tag payloads that import an async payload
         // we need to ensure this resolves before executing the Nuxt entry
-        tagPosition: _PAYLOAD_EXTRACTION && !true ? "bodyClose" : "head",
+        tagPosition: "head",
         crossorigin: ""
       }))
     }, headEntryOptions);
